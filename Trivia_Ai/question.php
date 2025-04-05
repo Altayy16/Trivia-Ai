@@ -21,7 +21,7 @@ if (isset($_COOKIE['translations'])) {
 }
 
 // Create the Gemini client instance
-$client = new Client("AIzaSyDhWtWZmfSE_tDZyKUyu5iWm8h5JMbEO48");
+$client = new Client("YOUR_GEMINI_API");
 
 // Prepare the themes string
 $themes_str = implode(", ", $themes); // Convert the themes array to a comma-separated string
